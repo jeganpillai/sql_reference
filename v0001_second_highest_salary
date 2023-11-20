@@ -8,3 +8,34 @@ insert into Employee (Id, Name, Salary, Department) values
 , (5, 'Janet', '69000', 'IT')
 , (6, 'Sam', '60000', 'HR')
 ;
+
+-- n00b format
+select max(salary) from Employee where salary
+     < (select max(salary) from Employee where salary
+          < (select max(salary) from Employee where salary
+               < (select max(salary) from Employee where salary
+                    < (select max(salary) from Employee)
+                 )
+            )
+        );
+-- traditional correlated subquery
+SELECT e.Salary AS SecondHighestSalary
+  FROM Employee e
+ WHERE 3 = (SELECT COUNT(DISTINCT ee.Salary) FROM Employee ee
+             WHERE ee.Salary >= e.Salary);
+
+-- windows function with subquery format 
+SELECT MAX(e.Salary) AS SecondHighestSalary
+  FROM (SELECT Salary
+              ,DENSE_RANK() OVER(ORDER BY Salary Desc) AS rnk
+          FROM Employee  )e
+         WHERE e.rnk = 2
+
+-- windows function wih CTC table 
+with main_table as (
+SELECT Salary as salary
+      ,DENSE_RANK() OVER(ORDER BY Salary desc) AS rnk
+      FROM Employee) 
+select max(salary) from main_table  
+      where rnk = 2
+      ;
