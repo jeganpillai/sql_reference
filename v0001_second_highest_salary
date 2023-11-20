@@ -1,0 +1,10 @@
+Create table If Not Exists Employee (Id int, Name varchar(255), Salary int, Department varchar(100));
+
+insert into Employee (Id, Name, Salary, Department) values 
+(1, 'Max', '90000', 'IT')
+,(2, 'Joe', '85000', 'IT')
+, (3, 'Henry', '85000', 'HR')
+, (4, 'Will', '70000', 'IT')
+, (5, 'Janet', '69000', 'IT')
+, (6, 'Sam', '60000', 'HR')
+;
