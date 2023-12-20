@@ -1,4 +1,6 @@
 -- Question : We are given a Votes table where we have Voter and Candidate. The Voters can vote for one or more candidates or choose not to vote. Each person has 1 vote so if they vote for multiple candidates, their vote gets equally split across them. 
+
+-- Video: https://www.youtube.com/watch?v=ovjaQuwrfis
 Create table Votes(voter varchar(30), candidate varchar(30));
 Truncate table Votes;
 insert into Votes (voter, candidate) values 
