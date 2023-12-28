@@ -35,3 +35,35 @@ inner join all_data c2
        and c1.x <= c1.y
        and c1.rnum <> c2.rnum 
   order by 1,2; 
+
+/*
+Truncate table Coordinates;
+insert into Coordinates (X, Y) values
+ (6, 7)
+,(5, 2)
+,(5, 4)
+,(6, 6)
+,(6, 9)
+,(10, 9)
+,(3, 1)
+,(7, 7)
+,(1, 9)
+,(1, 4)
+,(7, 1)
+,(7, 4)
+,(10, 2)
+,(9, 4)
+,(3, 2)
+,(5, 1)
+,(7, 5)
+,(8, 6)
+,(10, 1)
+,(9, 8)
+,(6, 4)
+,(6, 5)
+,(8, 8);
+
+Expected
+| x | y |
+| - | - |
+*/
