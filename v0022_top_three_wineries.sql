@@ -7,7 +7,7 @@ conditions
 4. If there is more than one wineary with same points, then you sort based on points and then by wineary name
 5. If there is no second or third wineary, then replace with "No second wineary" and 'No third wineary'
 */ 
--- Video: https://youtu.be/M45ubdAk5b8
+-- Video: https://www.youtube.com/watch?v=M45ubdAk5b8
 
 -- Approach 1: using Windows function
 with ranking_winery as (
