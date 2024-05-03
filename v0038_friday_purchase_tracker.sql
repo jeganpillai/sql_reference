@@ -3,6 +3,31 @@
 -- English Video: 
 -- Tamil Video: 
 
+Create Table if Not Exists Purchases ( user_id int, purchase_date date, amount_spend int);
+Truncate table Purchases;
+insert into Purchases (user_id, purchase_date, amount_spend) values 
+ (11, '2024-05-03',   1126)
+,(15, '2024-05-03',   1100)
+,(15, '2024-05-10',   7473)
+,(17, '2024-05-17',   2414)
+,(13, '2024-05-21',  12000)
+,(10, '2024-05-22',   8266)
+,(12, '2024-05-24',   9692)
+,( 8, '2024-05-24',   5117)
+,( 1, '2024-05-24',   5241);
+
+Create Table if Not Exists Users (user_id int, membership enum('Standard', 'Premium', 'VIP'));
+Truncate table Users;
+insert into Users (user_id, membership) values 
+ (11, 'Premium' )
+,(15, 'VIP'     )
+,(17, 'Standard')
+,(12, 'VIP'     )
+,( 8, 'Premium' )
+,( 1, 'VIP'     )
+,(10, 'Standard')
+,(13, 'Premium' );
+
 -- Purchase tracker for the month of May 2024
 with RECURSIVE date_cte as 
 (select date '2024-05-01' as date_ 
