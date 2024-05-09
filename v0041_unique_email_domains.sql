@@ -1,7 +1,7 @@
 -- Question: Find all unique email domains ending with .com and count the number of individuals associated with each domain
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=o2jRhl345lU
+-- Tamil Video: https://www.youtube.com/watch?v=Bd-s01xwCk8
 
 Create table Emails (id int, email varchar(255));
 Truncate table Emails;
@@ -30,3 +30,4 @@ order by 1 ;
 --       substr(email, instr(email, '@')+1) as email_domain
 
 --       where email like '%.com'
+--       where right(email,4) = '.com'
