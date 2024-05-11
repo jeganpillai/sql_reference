@@ -1,7 +1,7 @@
 -- Question: Find the candidates best suited for a Data Scientist position. The candidate must be proficient in Python, Tableau, and PostgreSQL.
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=DYX1DmFRTg0
+-- Tamil Video: https://www.youtube.com/watch?v=a6fyVEGkdQA
 
 Create table Candidates (candidate_id int, skill varchar(30));
 Truncate table Candidates;
@@ -31,7 +31,8 @@ select distinct candidate_id
 select distinct candidate_id 
        from Candidates c 
       where 3 = (select count(distinct cc.skill) from Candidates cc 
-                        where cc.candidate_id = c.candidate_id);
+                        where cc.candidate_id = c.candidate_id
+                          and cc.skill in ('Python','Tableau','PostgreSQL'));
 
 -- Approach 3: Aggregate Format 
 select candidate_id
