@@ -40,3 +40,13 @@ select candidate_id
       where skill in ('Python','Tableau','PostgreSQL')
    group by 1 having count(distinct skill) = 3
    order by 1;
+
+-- Approach 4: one more different approach
+SELECT candidate_id
+       FROM Candidates
+   GROUP BY candidate_id
+     HAVING COUNT(DISTINCT skill) = 3
+        AND MAX(skill = 'Python') = 1
+        AND MAX(skill = 'Tableau') = 1
+        AND MAX(skill = 'PostgreSQL') = 1
+   ORDER BY candidate_id ASC;
