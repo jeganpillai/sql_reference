@@ -45,7 +45,7 @@ select candidate_id
 SELECT candidate_id
        FROM Candidates
    GROUP BY candidate_id
-     HAVING COUNT(DISTINCT skill) = 3
+     HAVING COUNT(DISTINCT skill) >= 3
         AND MAX(skill = 'Python') = 1
         AND MAX(skill = 'Tableau') = 1
         AND MAX(skill = 'PostgreSQL') = 1
