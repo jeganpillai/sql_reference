@@ -26,13 +26,13 @@ insert into Tweets (tweet_id, content) values
 -- Approach 1: replace the symbol to blank and compare with full 
 select tweet_id 
        from Tweets 
-where length(content) > 140
+where length(content) > 120
 or length(content) - length(replace(content, '@','')) > 3 
 or length(content) - length(replace(content, '#','')) > 3; 
 
 -- Approach 2: Using substring and count the availability
 select tweet_id 
        from Tweets 
-      where    length(content) > 140
+      where    length(content) > 120
             or regexp_substr(content, '@', 1,4) is not null 
             or regexp_substr(content, '#', 1,4) is not null;
