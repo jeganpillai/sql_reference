@@ -66,8 +66,14 @@ select a.order_date,
   left join immediate_delivery i 
          on i.order_date = a.order_date;
 
--- Approach 2: Using Simple CASE statement 
+-- Approach 2: Using Simple CASE and COUNT function 
 select order_date, 
        round(count(case when order_date = customer_pref_delivery_date then delivery_id end) * 100 / count(delivery_id),2) as immediate_percentage 
+       from Delivery 
+   group by 1;
+
+-- Approach 3: Using Simple CASE and SUM function
+select order_date, 
+       round(sum(case when order_date = customer_pref_delivery_date then 1 else 0 end) * 100 / count(delivery_id),2) as immediate_percentage 
        from Delivery 
    group by 1;
