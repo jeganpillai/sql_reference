@@ -1,6 +1,6 @@
 -- Question: Trending Hashtag From Tweeets
 
--- English Video: 
+-- English Video: https://www.youtube.com/watch?v=WwJc3Uo5wjA
 -- Tamil Video: 
 
 Create table If Not Exists Tweets 
