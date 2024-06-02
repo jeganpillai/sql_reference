@@ -1,7 +1,8 @@
 -- Question: Write a solution to calculate the total spending by users on each Friday of every week in November 2023. Output only weeks that include at least one purchase on a Friday.
 -- Extension of the Question: Write a solution to calculate the total spending by users on each Friday of every week in November 2023. If there are no purchases on a particular Friday of a week, it will be considered as 0.
 
--- Video: https://www.youtube.com/watch?v=myGEiN25Pdg
+-- English Video: https://www.youtube.com/watch?v=myGEiN25Pdg
+-- Tamil Video: Pending 
 
 Create Table Purchases( user_id int, purchase_date date, amount_spend int);
 Truncate table Purchases;
