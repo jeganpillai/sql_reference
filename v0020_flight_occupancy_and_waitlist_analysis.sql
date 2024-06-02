@@ -1,5 +1,7 @@
 -- Question: Flight Occupancy And Waitlist Analysis
--- Video: https://www.youtube.com/watch?v=AQtLC6BKdls
+
+-- English Video: https://www.youtube.com/watch?v=AQtLC6BKdls
+-- Tamil Video: Pending 
 
 -- Approach 1: Using Common Table Expressions (CTE)
 with booking_data as (
