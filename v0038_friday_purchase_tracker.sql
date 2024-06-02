@@ -1,7 +1,7 @@
 -- Question: Find the Purchase numbers happened on Month of May 2024 and by specific Member type
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=f9AVlJJov6I
+-- Tamil Video: https://www.youtube.com/watch?v=cGwPjtAsrb4
 
 Create Table if Not Exists Purchases ( user_id int, purchase_date date, amount_spend int);
 Truncate table Purchases;
