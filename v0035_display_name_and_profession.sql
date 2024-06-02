@@ -1,7 +1,7 @@
 -- Question: Display Name and Profession of Each Person
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=g06DlkUXr0w
+-- Tamil Video: https://www.youtube.com/watch?v=VXKgroxaACI
 
 Create table Person (
  person_id int, 
