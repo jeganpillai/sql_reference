@@ -1,7 +1,7 @@
 -- Question: Parking Fees and Duration
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=oBiwnYdAvqU
+-- Tamil Video: https://www.youtube.com/watch?v=Lxby4NdG6AE
 
 CREATE TABLE If not exists ParkingTransactions (
     lot_id INT,
