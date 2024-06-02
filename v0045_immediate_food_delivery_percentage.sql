@@ -1,7 +1,7 @@
 -- Question: Immediate Food Delivery Percentage
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=Q17bFGNDW6Y
+-- Tamil Video: https://www.youtube.com/watch?v=Z-x4vxZL_Qs
 
 Create table Delivery 
 (delivery_id int, 
