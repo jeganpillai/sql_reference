@@ -1,5 +1,7 @@
 -- Question: Find Active Users based on Purchase frequency
--- Video: https://www.youtube.com/watch?v=bj4htPZY500
+
+-- English Video: https://www.youtube.com/watch?v=bj4htPZY500
+-- Tamil Video: Pending 
 
 Create table If Not Exists Users 
 (user_id int, item varchar(100),created_at date,amount int);
