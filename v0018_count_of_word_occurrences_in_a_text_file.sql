@@ -1,4 +1,8 @@
 -- Question: Determining the Word Occurrence Count in a Text File
+
+-- English Video: https://www.youtube.com/watch?v=8Fa2qDeIhdo 
+-- Tamil Video: Pending 
+
 Create table If Not Exists Files (file_name varchar(100), content text );
 Truncate table Files;
 insert into Files (file_name, content) values 
