@@ -7,7 +7,10 @@ conditions
 4. If there is more than one wineary with same points, then you sort based on points and then by wineary name
 5. If there is no second or third wineary, then replace with "No second wineary" and 'No third wineary'
 */ 
--- Video: https://www.youtube.com/watch?v=M45ubdAk5b8
+
+-- English Video: https://www.youtube.com/watch?v=M45ubdAk5b8
+-- Tamil Video: Pending 
+
 Create table if Not Exists Wineries ( id int, country varchar(60), points int, winery varchar(60));
 
 Truncate table Wineries;
