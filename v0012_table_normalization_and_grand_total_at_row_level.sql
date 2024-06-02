@@ -1,4 +1,8 @@
 -- Question 1: Given denormalized table, we have to normaliae the values to single row. 
+
+-- English Video: https://www.youtube.com/watch?v=_XOHS3wdwFw
+-- Tamil Video: Pending 
+
 create table city_normalize 
 (city varchar(255)
 ,region_type varchar(255)   
