@@ -1,5 +1,8 @@
 -- Question: Write a SQL query to find all numbers that appear at least three times consecutively.
 
+-- English Video: https://www.youtube.com/watch?v=aInquqYlVZ4
+-- Tamil Video: Pending 
+
 Create table If Not Exists Logs (Id int, Num int);
 Truncate table Logs;
 insert into Logs (Id, Num) values 
