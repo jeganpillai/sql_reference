@@ -1,5 +1,7 @@
 -- Question: Class performance based on highest and lowest score of the Students in class
--- Video: https://www.youtube.com/watch?v=gDSp9rCpirc
+
+-- English Video: https://www.youtube.com/watch?v=gDSp9rCpirc
+-- Tamil Video: Pending 
 
 Create Table Scores 
 (student_id int, student_name varchar(40), assignment1 int
