@@ -1,5 +1,7 @@
 -- Question: Track the status of flight ticket, if its Confirmed or in Waitlist
--- Video : 
+
+-- English Video: https://www.youtube.com/watch?v=e3buO2_h6Vs
+-- Tamil Video: Pending 
 
 Create table if not exists Flights
 (flight_id int,capacity int);
