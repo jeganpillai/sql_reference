@@ -1,5 +1,8 @@
 -- Question: Calculate The Highest Salary Difference Between Two Departments
 
+-- English Video: https://www.youtube.com/watch?v=lq--8QbaByY 
+-- Tamil Video: Pending 
+
 Create table Salaries(emp_name varchar(30), department varchar(30),salary int);
 insert into Salaries (emp_name, department, salary) values 
 ('Kathy', 'Engineering', '50000')
