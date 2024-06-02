@@ -1,5 +1,8 @@
 -- Question: if there are more than one client connected to a product then display the count of customers else display the client_name 
 
+-- English Video: https://www.youtube.com/watch?v=0L0ETCL6-3E
+-- Tamil Video: Pending 
+
 create table grouping_customers 
 (product_id int 
 ,client_name varchar(25)
