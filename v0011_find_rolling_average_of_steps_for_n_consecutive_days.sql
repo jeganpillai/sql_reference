@@ -1,5 +1,8 @@
 -- Question: Given the Users steps for multiple days, find the rolling three day average of steps for each user. If there is any missing rows, then skip that date.
 
+-- English Video: https://www.youtube.com/watch?v=G12cstxomiI
+-- Tamil Video: Pending 
+
 Create table Steps(user_id int, steps_date date, steps_count int);
 Truncate table Steps;
 insert into Steps (user_id, steps_date, steps_count) values 
