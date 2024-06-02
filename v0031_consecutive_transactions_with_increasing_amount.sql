@@ -1,5 +1,7 @@
 -- Question: Find the Consecutive Transactions with Increasing Amount
--- Video: https://www.youtube.com/watch?v=Iolj61j3vBs
+
+-- English Video: https://www.youtube.com/watch?v=Iolj61j3vBs
+-- Tamil Video: Pending 
 
 Create table If Not Exists Transactions 
 (transaction_id int, customer_id int, transaction_date date, amount int);
