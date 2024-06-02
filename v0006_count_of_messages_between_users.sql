@@ -1,5 +1,8 @@
 -- Question: Given a dataset of messages between users, get the count of messages shared between two users 
 
+-- English Video: https://www.youtube.com/watch?v=cRzzUKMfDCQ
+-- Tamil Video: Pending 
+
 create table if not exists messages 
 (id int
 ,sndr varchar(25) 
