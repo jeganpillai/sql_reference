@@ -1,3 +1,7 @@
+-- Question: Table Joins
+-- English Video: 
+-- Tamil Video: Pending 
+
 create table rooms (room_number decimal(18,0), number_of_beds int);
 insert into rooms(room_number, number_of_beds) values 
 (101, 2),(102, 3),(103, 3),(201, 2),(202, 2),(203, 3);
