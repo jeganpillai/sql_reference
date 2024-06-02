@@ -1,5 +1,8 @@
 -- Question 1: The Employee table holds all employees including their managers. Every employee has an Id, and there is also a column for the manager Id. Given the Employee table, write a SQL query that finds out employees who earn more than their managers. 
 
+-- English Video: https://www.youtube.com/watch?v=cznPQmH482c
+-- Tamil Video: Pending 
+
 Create table If Not Exists Employee 
 (Id int, Name varchar(255), Salary int, ManagerId int);
 Truncate table Employee;
