@@ -1,7 +1,7 @@
 -- Question: Find the employees who moved from Dallas to Seattle and in last 12 months. Except Dallas employee shouldn’t have worked in any other city.
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=iC4VbKs88oI
+-- Tamil Video: https://www.youtube.com/watch?v=qZrdSBTA9zA
 
 create table Employees 
 (eno int
