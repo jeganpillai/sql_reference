@@ -1,5 +1,7 @@
 -- Question: Find third transaction of every users where the spending on the preceding two transactions is lower than the spending on the third transaction.
--- Video: https://www.youtube.com/watch?v=JWUda4bSzds
+
+-- English Video: https://www.youtube.com/watch?v=JWUda4bSzds
+-- Tamil Video: Pending 
 
 Create Table Transactions (user_id int, spend decimal(5,2), transaction_date datetime);
 Truncate table Transactions;
