@@ -2,6 +2,9 @@
 -- Get the clarification
 -- clear version of question: Number of customers who placed 2+ orders in 2022 and also placed 3+ orders in 2023
 
+-- English Video: https://www.youtube.com/watch?v=owM6VB3qkgc
+-- Tamil Video: Pending 
+
 create table orders 
 (order_id int 
 ,customer_id int 
