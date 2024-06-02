@@ -1,7 +1,7 @@
 -- Question: Find the length of the longest consecutive sequence of available seats in the cinema
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=Ha1-Quy-VgY
+-- Tamil Video: https://www.youtube.com/watch?v=bv6Szq3hVBw
 
 CREATE TABLE Cinema (seat_id INT,
                      free BOOLEAN);
