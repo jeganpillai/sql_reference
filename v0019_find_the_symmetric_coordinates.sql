@@ -1,5 +1,7 @@
 -- Question : Find The Symmetric Coordinates
--- Video: 
+
+-- English Video: https://www.youtube.com/watch?v=nnhkd6D1FIk
+-- Tamil Video: Pending 
 
 -- What is Symmetric Coordinates? 
 -- Two coordindates (X1, Y1) and (X2, Y2) are said to be symmetric coordintes if X1 == Y2 and X2 == Y1.
