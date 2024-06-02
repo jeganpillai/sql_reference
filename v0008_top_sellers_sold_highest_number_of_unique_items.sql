@@ -1,4 +1,8 @@
 -- Question: We have a set of tables and we are asked to find the top sellers who sold Highest Number of Unique Items, with the different brand than their favorite brand. If there are more than one seller, then we have to bring in all those top sellers
+
+-- English Video: https://www.youtube.com/watch?v=l-G6fk2GofQ
+-- Tamil Video: Pending 
+
 Create table If Not Exists Users (seller_id int, join_date date, favorite_brand varchar(10));
 Truncate table Users;
 insert into Users values 
