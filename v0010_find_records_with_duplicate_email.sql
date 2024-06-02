@@ -1,4 +1,8 @@
 -- Question : Find Records With Duplicate email, in other words, find emails which connects multiple users
+
+-- English Video: https://www.youtube.com/watch?v=cB_YA9ZHeg8
+-- Tamil Video: Pending 
+
 CREATE TABLE IF NOT EXISTS Users (user_id INT, email VARCHAR(255));
 TRUNCATE TABLE Users;
 INSERT INTO Users (user_id, email) VALUES 
