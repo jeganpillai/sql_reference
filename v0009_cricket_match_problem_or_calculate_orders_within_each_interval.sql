@@ -1,5 +1,8 @@
 -- Given a set of integers as minutes and number of orders received during that specific minute. The total number of rows will be a multiple of 6. Write a query to calculate total orders within each interval. Each interval is defined as a combination of 6 minutes.
 
+-- English Video: https://www.youtube.com/watch?v=B5oQrEE0oJA
+-- Tamil Video: Pending 
+
 Create table if not exists Orders(minute int, order_count int);
 Truncate table Orders;
 insert into Orders (minute, order_count) values 
