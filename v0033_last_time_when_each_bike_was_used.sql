@@ -1,5 +1,7 @@
 -- Question: Find the last time when each bike was used
--- Video: https://www.youtube.com/watch?v=3Rm8Rm0-9v4
+
+-- English Video: https://www.youtube.com/watch?v=3Rm8Rm0-9v4
+-- Tamil Video: Pending 
 
 -- *** Approach 1: Simple Aggregation *** 
 select bike_number, max(end_time) as end_time 
