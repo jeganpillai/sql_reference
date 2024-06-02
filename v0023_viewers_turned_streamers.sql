@@ -1,5 +1,8 @@
 -- Question: Find users who started as Viewers and Became Streamers, get those users and total sessions as Streamer.
--- Video: https://www.youtube.com/watch?v=RIDgrV37ew8
+
+-- English Video: https://www.youtube.com/watch?v=RIDgrV37ew8
+-- Tamil Video: Pending 
+
 Create table Sessions 
 (user_id int, session_start datetime, session_end datetime, session_id int, session_type varchar(25));
 Truncate table Sessions;
