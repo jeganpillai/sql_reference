@@ -1,4 +1,5 @@
--- Question: Find the seocnd highest slaary
+-- Question: Find the seocnd highest salary
+
 -- English Video: https://www.youtube.com/watch?v=rJzUgfgeTAY
 -- Tamil Video: Pending 
 
