@@ -1,3 +1,7 @@
+-- Question: Find the seocnd highest slaary
+-- English Video: https://www.youtube.com/watch?v=rJzUgfgeTAY
+-- Tamil Video: Pending 
+
 Create table If Not Exists Employee (Id int, Name varchar(255), Salary int, Department varchar(100));
 
 insert into Employee (Id, Name, Salary, Department) values 
