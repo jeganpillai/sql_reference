@@ -1,5 +1,7 @@
 -- Question: Find Expensive Cities. Cities are expensive, if the cities average home prices exceed the national average home price.
--- Video: https://www.youtube.com/watch?v=3v0GtTyAT38
+
+-- English Video: https://www.youtube.com/watch?v=3v0GtTyAT38
+-- Tamil Video: Pending 
 
 Create Table if Not Exists Listings (listing_id int, city varchar(50), price int);
 Truncate table Listings;
