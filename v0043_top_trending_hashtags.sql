@@ -1,7 +1,7 @@
 -- Question: Find the top trending tweets
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=KfoT_5gVfE8
+-- Tamil Video: https://www.youtube.com/watch?v=VKiBZrzN5ak
 
 Create table Tweets (
   user_id int, tweet_id int,  tweet_date date, tweet varchar(100));
