@@ -1,7 +1,7 @@
 -- Question: v0047_popular_artist_on_spotify
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=9WmdNzldmw0
+-- Tamil Video: https://www.youtube.com/watch?v=VGIM8QLmqVw
 
 Create table Spotify (id int,track_name varchar(100),artist varchar(100));
 Truncate table Spotify;
