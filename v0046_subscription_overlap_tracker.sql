@@ -1,7 +1,7 @@
 -- Question: Subscription Overlap Finder
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=MVUa_3rJUDU
+-- Tamil Video: https://www.youtube.com/watch?v=YJCyTPYtbWc
 
 create table subscriptions(
   user_id int,
