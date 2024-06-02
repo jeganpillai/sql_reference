@@ -1,7 +1,7 @@
 -- Question: Snaps Sent and Open Percentage
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=dQ_xqBm_-HI
+-- Tamil Video: https://www.youtube.com/watch?v=mXg2d4JJGpo
 
 Create table Activities(
   activity_id int, 
