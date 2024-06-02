@@ -1,5 +1,7 @@
 -- Question: Users With Multiple Loan Types
--- Video: https://www.youtube.com/watch?v=ddMdDDB87AI
+
+-- English Video: https://www.youtube.com/watch?v=ddMdDDB87AI
+-- Tamil Video: Pending 
 
 -- Approach 1: Multiple Subquery Approach
 select a.user_id 
