@@ -1,5 +1,7 @@
 -- Question: Get the customer with maximum number of transactions on consecutive days
--- Video: https://www.youtube.com/watch?v=z9tsTUPvzYQ
+
+-- English Video: https://www.youtube.com/watch?v=z9tsTUPvzYQ
+-- Tamil Video: Pending 
 
 Create table Transactions (transaction_id int, customer_id int, transaction_date date, amount int);
 Truncate table Transactions;
