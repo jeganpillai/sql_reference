@@ -1,5 +1,7 @@
 -- Question: Find the Popularity Percentage of Users in Social Media 
--- Video: https://www.youtube.com/watch?v=YUAn13_F6BY
+
+-- English Video: https://www.youtube.com/watch?v=YUAn13_F6BY
+-- Tamil Video: Pending 
 
 Create table Friends (user1 int, user2 int);
 Truncate table Friends;
