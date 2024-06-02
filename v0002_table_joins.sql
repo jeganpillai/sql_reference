@@ -1,5 +1,5 @@
 -- Question: Table Joins
--- English Video: 
+-- English Video: https://www.youtube.com/watch?v=yqpSyllonsg
 -- Tamil Video: Pending 
 
 create table rooms (room_number decimal(18,0), number_of_beds int);
