@@ -1,5 +1,7 @@
 -- Question: Find employees who are not eligible to get their salary
--- Video: https://www.youtube.com/watch?v=qvpX0Ch2ck8
+
+-- English Video: https://www.youtube.com/watch?v=qvpX0Ch2ck8
+-- Tamil Video: Pending 
 
 -- Approach 1: CTE Table Logic
 select employee_id 
