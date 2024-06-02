@@ -1,7 +1,7 @@
 -- Question: Display Name and Profession of Each Person
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=m1ydtXuc9lk
+-- Tamil Video: https://www.youtube.com/watch?v=NRNtLu0HK9I
 
 Create table if not exists Servers 
 (server_id int, 
