@@ -1,5 +1,7 @@
 -- Question: calculate the distance travelled by each user. If there is a user who hasn't completed any ride, then their distance should be considered as Zero.
--- Video: 
+
+-- English Video: https://www.youtube.com/watch?v=TV2Y2EmpnGM
+-- Tamil Video: Pending 
 
 -- SQL 
 select u.user_id, u.first_name, u.last_name
