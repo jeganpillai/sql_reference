@@ -1,7 +1,7 @@
 -- Question: List Down the Invalid Tweets 
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=Mx_UEqMskd8
+-- Tamil Video: https://www.youtube.com/watch?v=LCVYALkxwb8
 
 Create table Tweets(tweet_id int, content varchar(500));
 Truncate table Tweets;
