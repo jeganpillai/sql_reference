@@ -1,7 +1,7 @@
 -- Question: Find the three Longest Incoming and Outgoing Calls
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=ya_onht0V4w
+-- Tamil Video: https://www.youtube.com/watch?v=OEG-G8rKKdk
 
 Create table Contacts(
   id int, first_name varchar(20), last_name varchar(20));
