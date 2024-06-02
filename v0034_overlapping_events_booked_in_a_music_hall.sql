@@ -1,5 +1,7 @@
 -- Question: finding the overlapping events booked in a music hall
--- Video: https://www.youtube.com/watch?v=7dEqAyV6Yg0
+
+# English Video: https://www.youtube.com/watch?v=7dEqAyV6Yg0
+# Tamil Video: Pending
 
 Create table If Not Exists HallEvents 
 (hall_id int, start_day date, end_day date);
